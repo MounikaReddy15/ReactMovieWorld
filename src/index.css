@@ -60,28 +60,38 @@ body {
   margin: 10px 20px 0px 20px ;
 }
 .movie-card {
-  height: 180px;
-  width: 120px;
+  height: 200px;
+  width: 140px;
   border: 2px solid white;
   border-radius: 2px;
- 
-  margin: 50px 50px 10px 20px;
+ display: inline-block;
+  margin: 20px 50px 5px 20px;
+  
   /* align-items: flex-end; */
   /* justify-content: space-around; */
   position: relative;
 }
 
 .movie-title {
+  margin-left: 20px;
   color: aliceblue;
+  position: absolute;
+  margin-top: 0.5px;
+  letter-spacing: 0.5px;
 }
 
-p{
+.release-date{
   color: rgb(250, 251, 252);
+  margin-left: 20px;
+  margin-bottom: 2px ;
+  padding-top: 8px ;
+  
 }
 
 .movie-image {
-  height: 180px;
-  width: 120px;
+  height: 200px;
+  width: 140px;
+  
 }
 
 .rating {
@@ -123,3 +133,79 @@ left:30px;
   opacity: 1;
   z-index: 1;
  }
+
+ .top {
+   display: inline-block;
+ }
+.detail-image {
+  height: 290px;
+  width: 190px;
+  border: 3px solid white;
+  margin: 50px 0px 0px 50px;
+  border-radius: 3px;
+  position: relative;
+}
+
+.download-btn {
+  /* display: inline-block; */
+  height: 30px;
+  width: 191px;
+  position: absolute;
+  top: 70%;
+  left: 4.3%;
+  background-color: rgb(87, 189, 20);
+  border: none;
+  color: white;
+  border-radius: 2px;
+}
+
+.detail-title {
+  position: absolute;
+  top: 17%;
+  left: 30%;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.detail-year {
+  position: absolute;
+  top: 28%;
+  left: 30%;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.detail-drama {
+  position: absolute;
+  top: 32%;
+  left: 30%;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.detail-count {
+  position: absolute;
+  top: 52%;
+  left: 30%;
+  color: rgb(197, 204, 156);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.detail-vote {
+  position: absolute;
+  top: 52%;
+  left: 45%;
+  color: rgb(197, 204, 156);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.similar {
+  position: absolute;
+  top: 17%;
+  left: 60%;
+  color: white;
+  width: 30%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.3rem;
+  color: rgb(197, 204, 156);;
+}
