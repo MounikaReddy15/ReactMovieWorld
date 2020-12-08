@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ReactMovieWorld/static/css/main.01d81577.chunk.css",
+    "main.js": "/ReactMovieWorld/static/js/main.2a8999ac.chunk.js",
+    "main.js.map": "/ReactMovieWorld/static/js/main.2a8999ac.chunk.js.map",
+    "runtime-main.js": "/ReactMovieWorld/static/js/runtime-main.625b5fcb.js",
+    "runtime-main.js.map": "/ReactMovieWorld/static/js/runtime-main.625b5fcb.js.map",
+    "static/js/2.6c2d30c3.chunk.js": "/ReactMovieWorld/static/js/2.6c2d30c3.chunk.js",
+    "static/js/2.6c2d30c3.chunk.js.map": "/ReactMovieWorld/static/js/2.6c2d30c3.chunk.js.map",
+    "index.html": "/ReactMovieWorld/index.html",
+    "static/css/main.01d81577.chunk.css.map": "/ReactMovieWorld/static/css/main.01d81577.chunk.css.map",
+    "static/js/2.6c2d30c3.chunk.js.LICENSE.txt": "/ReactMovieWorld/static/js/2.6c2d30c3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.625b5fcb.js",
+    "static/js/2.6c2d30c3.chunk.js",
+    "static/css/main.01d81577.chunk.css",
+    "static/js/main.2a8999ac.chunk.js"
+  ]
+}
