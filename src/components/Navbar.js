@@ -1,17 +1,7 @@
 import React from 'react';
 
 
-class Navbar extends React.Component {
-
-  // showHome = () => {
-  //   const {showDetails} = this.props;
-  //   this.setState({
-  //     showDetails: !showDetails
-  //   })
-  //   console.log(showDetails,'showHome');
-  // }
-  render() {
-    const {displayDetails} = this.props;
+const Navbar = () => {
   return (
     <div className="nav">
     <h1 className="title">Movie</h1>
@@ -19,7 +9,7 @@ class Navbar extends React.Component {
     <div className= "search-container">
     <input placeholder="Quick Search" />
     </div>
-    <p className="nav-titles" onClick={()=> displayDetails()}>Home </p>
+    <p className="nav-titles" >Home </p>
     <p className="nav-titles">4K </p>
     <p className="nav-titles">Trending </p>
     <p className="nav-titles">Browse Movies</p>
@@ -27,6 +17,6 @@ class Navbar extends React.Component {
     </div>
   );
 }
-}
+
 
 export default Navbar;
